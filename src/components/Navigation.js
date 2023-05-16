@@ -3,8 +3,8 @@ import React from 'react';
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <>
-      <header className="nav">
-      <h1>Jen Roberson</h1>
+      {/* <header className="nav"> */}
+      {/* <h1>Jen Roberson</h1> */}
       <nav>
         {/* <ul>
           <li><a href="#aboutme">About Me</a></li>
@@ -53,7 +53,7 @@ function Navigation({ currentPage, handlePageChange }) {
 
     </ul>
     </nav>
-    </header>
+    {/* </header> */}
 
     </>
   );
