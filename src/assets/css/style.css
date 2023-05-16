@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --green: #acb071;
   --secondary: #edead0;
   --text-color-primary: #354419;
@@ -10,7 +10,7 @@
 }
 
 /*Nav bar */
-.nav {
+/* .nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -38,10 +38,10 @@
 header nav ul li a {
   color: var(--text-color-primary);
   font-weight: bold;
-}
+} */
 
 /* Styling for Banner */
-.banner {
+/* .banner {
   background-image: url("../images/download.jpg");
   background-size: cover;
   background-position: center;
@@ -65,10 +65,10 @@ header nav ul li a {
 
 .artist {
   padding-left: 40px;
-}
+} */
 
 /* Styling for Main Section */
-.title {
+/* .title {
   border-right: 5px var(--orange) solid;
   color: var(--text-color-primary);
   min-height: 100%;
@@ -135,10 +135,10 @@ header nav ul li a {
 
 .projects .future {
   height: 300px;
-}
+} */
 
 /* Project Labels */
-.projects .project-label {
+/* .projects .project-label {
   position: absolute;
   top: 15px;
   right: 5px;
@@ -148,7 +148,7 @@ header nav ul li a {
   justify-content: center;
   text-align: center;
   z-index: 2;
-}
+} */
 
 /* body{
   background-color: red;
