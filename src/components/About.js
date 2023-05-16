@@ -1,10 +1,10 @@
 import React from 'react';
-// import profile from '../assets/images/profile.png';
+import profile from '../assets/images/profile.jpg';
 
 export default function About() {
   return (
     <section id="aboutme">
-    {/* <img  src={profile} /> */}
+    <img  src={profile} alt='profile'/>
     <div className="title">
       <h2>About Me</h2>
     </div>
