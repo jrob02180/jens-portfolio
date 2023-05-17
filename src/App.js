@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 // const App = () => <PortfolioContainer />;
 
 function App() {
-    const [currentPage, setCurrentPage] = useState('Portfolio');
+    const [currentPage, setCurrentPage] = useState('About');
   
     const renderPage = () => {
       if (currentPage === 'Portfolio') {
