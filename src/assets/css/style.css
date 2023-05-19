@@ -1,5 +1,38 @@
+:root{
+    --yellow: #FFEECD;
+    --text: #723D46;
+    --green: #C9CBA3;
+    --orange: #E26D5C;
+    --brown: #472D30;
+}
+
+.header{
+    background-color: var(--green);
+    color: var(--text);
+    width: 100%;
+    margin: 0 0 !important;
+}
+
 .image-container {
     height: 400px;
     padding: 50px;
     
 };
+
+#aboutme.row{
+    padding-top: 50px;
+}
+
+body{
+    background-color: var(--yellow);
+    color: var(--text);
+}
+
+main {
+    padding: 100px;
+}
+
+.nav-item{
+    color: var(--orange);
+}
+
