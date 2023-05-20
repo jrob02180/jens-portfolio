@@ -7,7 +7,6 @@
     --blue: #669bbc;
     --cream: #FDF0D5;
     --darkblue: #003049;
-
 }
 
 .header{
@@ -44,10 +43,19 @@ main {
     height: 400px;
     width: 400px;
     padding-left: 100px;
-    /* border-radius: 50%;
-    border: 5px solid var(--blue); */
-    /* margin: 0 auto;
-    display: block; */
+}
+
+.contactme {
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    padding-top: 10px;
+}
+
+button{
+    margin-top: 10px;
 }
 
 .footer{

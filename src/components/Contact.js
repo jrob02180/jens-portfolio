@@ -39,20 +39,21 @@ function Contact() {
   };
 
   return (
-      <div>
-        <div>
-          <h2>Contact</h2>
+      <div className="contactform">
+        <div className="contactme ">
+          <h2>Contact Me</h2>
         </div>
-        <form className="form">
+        <form className="contactme">
           <div>
-            <label htmlFor="name">Name:</label>
+            <label >Name:</label>
             <br></br>
             <input
-              type="text"
               value={name}
               name="name"
+              size="100"
               onChange={handleInputChange}
-              placeholder="Name"
+              type="text"
+              placeholder="name"
             />
             <br></br>
             <label htmlFor="email">Email:</label>
@@ -60,6 +61,7 @@ function Contact() {
             <input
               value={email}
               name="email"
+              size="100"
               onChange={handleInputChange}
               type="email"
               placeholder="email"
@@ -70,12 +72,13 @@ function Contact() {
             <input
               value={message}
               name="message"
+              size="100"
               onChange={handleInputChange}
               type="text"
               placeholder="message"
             />
             <br></br>
-            <button type="button" onClick={handleFormSubmit}>
+            <button type="button" size="30" onClick={handleFormSubmit}>
               Submit
             </button>
           </div>
