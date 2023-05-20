@@ -7,16 +7,16 @@ export default function About() {
       <div className="container">
         <div className="row" id="aboutme">
           <div className="col-6">
-            <h2 className="">About Me</h2>
-          <p className="">
+            <h2 className="" style={{fontSize: 50}}>About Me</h2>
+          <p className="" style={{fontSize: 30}}>
             I'm a full stack web developer with a background in medical coding,
-            billing, management and functional and alternative medicine. I have
+            billing, management, functional and alternative medicine. I have
             a passion for learning, problem solving and helping others. I'm a
             team player and I'm excited to bring my skills to a company that
             values collaboration and innovation.
           </p>
           </div>
-          <div className="col-6">
+          <div className="col-6" id="profile">
             <img src={profile} alt="profile" />
           </div>
         </div>

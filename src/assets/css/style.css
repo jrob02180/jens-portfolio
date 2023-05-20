@@ -4,13 +4,30 @@
     --green: #C9CBA3;
     --orange: #E26D5C;
     --brown: #472D30;
+    --blue: #669bbc;
+    --cream: #FDF0D5;
+    --darkblue: #003049;
+
 }
 
 .header{
-    background-color: var(--green);
+    background-color: var(--blue);
+    color: var(--cream);
+}
+
+.nav-link{
     color: var(--text);
-    width: 100%;
-    margin: 0 0 !important;
+}
+
+body{
+    background-color: var(--yellow);
+    color: var(--text);
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+main {
+    padding: 100px;
 }
 
 .image-container {
@@ -23,16 +40,12 @@
     padding-top: 50px;
 }
 
-body{
-    background-color: var(--yellow);
-    color: var(--text);
+#profile{
+    height: 400px;
+    width: 400px;
+    padding-left: 100px;
+    /* border-radius: 50%;
+    border: 5px solid var(--blue); */
+    /* margin: 0 auto;
+    display: block; */
 }
-
-main {
-    padding: 100px;
-}
-
-.nav-item{
-    color: var(--orange);
-}
-

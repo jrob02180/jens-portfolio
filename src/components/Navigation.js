@@ -12,7 +12,7 @@ function Navigation({ currentPage, handlePageChange }) {
           <li><a href="#contactme">Contact Me</a></li>
         </ul> */}
 
-    <ul className="nav  justify-content-center p-4" style={{fontSize: 20}}>
+    <ul className="nav  justify-content-center p-4" style={{fontSize: 30}}>
       <li className="nav-item">
         <a
           href="#aboutme"

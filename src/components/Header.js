@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 function Header(props) {
   const { currentPage, handlePageChange } = props;
   return (
-    <header className="container header " >
+    <header className="header" >
           <Navigation
             currentPage={currentPage}
             handlePageChange={handlePageChange}
