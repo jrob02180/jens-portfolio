@@ -50,6 +50,10 @@ main {
     justify-content: center;
 }
 
+.download {
+    align-items: center;
+}
+
 label{
     padding-top: 10px;
 }
