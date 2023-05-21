@@ -9,7 +9,7 @@ import password from "../assets/images/password.png";
 export default function Project() {
   return (
     <div>
-      <h1 className="text-center">Projects</h1>
+      <div className="text-center" style={{fontSize: 50}}>Projects</div>
       <div className="container">
       <div className="row" >
         <div className="col-6" >

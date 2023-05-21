@@ -19,7 +19,8 @@
 }
 
 body{
-    background-color: var(--yellow);
+    background-image: url("../images/paper.jpg");
+    background-size: cover;
     color: var(--text);
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Rajdhani', sans-serif;
@@ -31,18 +32,10 @@ main {
 
 .image-container {
     height: 400px;
-    padding: 50px;
-    
 };
 
 #aboutme.row{
     padding-top: 50px;
-}
-
-#profile{
-    height: 400px;
-    width: 400px;
-    padding-left: 100px;
 }
 
 .contactme {

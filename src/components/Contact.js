@@ -39,11 +39,11 @@ function Contact() {
   };
 
   return (
-      <div className="contactform">
-        <div className="contactme ">
-          <h2>Contact Me</h2>
+      <div className="contactform" >
+        <div className="contactme "style={{fontSize: 50}}>
+          <div>Contact Me</div>
         </div>
-        <form className="contactme">
+        <form className="contactme" style={{fontSize: 20}}>
           <div>
             <label >Name:</label>
             <br></br>
