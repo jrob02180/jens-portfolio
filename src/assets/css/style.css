@@ -30,9 +30,15 @@ main {
     padding: 100px;
 }
 
-.image-container {
+.img-fluid {
     height: 400px;
-};
+    width: 400px;
+}
+
+.project {
+    border-color:  thick var(--darkblue);
+
+}
 
 #aboutme.row{
     padding-top: 50px;

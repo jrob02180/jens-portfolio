@@ -13,7 +13,7 @@ export default function Project() {
       <div className="container">
       <div className="row" >
         <div className="col-6" >
-        <div className="image-container">
+        <div className="project">
           <a href="https://github.com/nlewis742/eat-speak-love">
             <img src={eatSpeakLove} alt="Eat Speak Love" className="img-fluid" />
           </a>
@@ -21,7 +21,7 @@ export default function Project() {
             <label className="card-title">Eat Speak Love</label>
         </div>
         <div className="col-6" >
-        <div className="image-container">
+        <div className="">
           <a href="https://github.com/nlewis742/birders-anonymous">
             <img src={birders} alt="Birders" className="img-fluid"/>
           </a>
@@ -29,7 +29,7 @@ export default function Project() {
             <label>Birders Anonymous</label>
         </div>
         <div className="col-6">
-        <div className="image-container">
+        <div className="">
           <a href="https://github.com/jrob02180/my-notes-app">
             <img src={notes} alt="My Notes App" className="img-fluid" />
           </a>
@@ -37,7 +37,7 @@ export default function Project() {
             <label>My Notes App</label>
         </div>
         <div className="col-6">
-        <div className="image-container">
+        <div className="">
           <a href="https://github.com/jrob02180/daily-planner">
             <img src={scheduler} alt="Daily Planner" className="img-fluid" />
           </a>
@@ -45,7 +45,7 @@ export default function Project() {
             <label>Daily Planner</label>
         </div>
         <div className="col-6">
-        <div className="image-container">
+        <div className="">
           <a href="https://github.com/jrob02180/weather-search">
             <img src={weather} alt="Weather Search" className="img-fluid"/>
           </a>
@@ -53,7 +53,7 @@ export default function Project() {
             <label>Weather Search</label>
         </div>
         <div className="col-6">
-        <div className="image-container">
+        <div className="">
           <a href="https://github.com/jrob02180/jens-pw-gen">
             <img src={password} alt="Password Generator"  className="img-fluid"/>
           </a>
