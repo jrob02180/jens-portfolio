@@ -17,7 +17,7 @@ export default function About() {
           </p>
           </div>
           <div className="col  d-flex justify-content-center" >
-            <img src={profile} className="img-fluid rounded-top rounded-bottom" alt="profile" />
+            <img src={profile} className="img-fluid" alt="profile" />
           </div>
         </div>
       </div>
