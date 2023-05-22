@@ -31,7 +31,7 @@ main {
   height: 400px;
   width: 400px;
   padding: 20px;
-  border: 3px solid var(--orange);
+  border: 5px solid var(--orange);
   border-style: inset;
   border-radius: 5%;
   
@@ -70,16 +70,24 @@ main {
   justify-content: center;
 }
 
-.download {
-  align-items: center;
-}
-
 label {
   padding-top: 10px;
 }
 
 button {
   margin-top: 10px;
+}
+
+.resume{
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+.skillList{
+    border: 5px solid var(--orange);
+    border-style: inset;
+    border-radius: 5%;
 }
 
 .footer {
