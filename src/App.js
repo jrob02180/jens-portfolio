@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 import Header from './components/Header';   
-// import Navigation from './components/Navigation';
 import Portfolio from './components/Portfolio';
 import About from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
-// const App = () => <PortfolioContainer />;
 
 function App() {
     const [currentPage, setCurrentPage] = useState('About');

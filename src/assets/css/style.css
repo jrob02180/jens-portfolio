@@ -34,18 +34,14 @@ main {
   border: 5px solid var(--orange);
   border-style: inset;
   border-radius: 5%;
-  
 }
 
 .text-overlay {
   display: flex;
   justify-content: center;
-  align-items: center;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-}
-
-.text-overlay a {
+  margin-top: 0;
   font-size: 30px;
   color: var(--blue);
   text-decoration: none;
@@ -84,10 +80,17 @@ justify-content: center;
 padding: 10px;
 }
 
+.resume a{
+  text-decoration: none;
+  color: var(--orange);
+}
+
+.skillset{
+text-decoration: underline;
+}
+
 .skillList{
-    border: 5px solid var(--orange);
-    border-style: inset;
-    border-radius: 5%;
+  border-right: 5px solid var(--orange);
 }
 
 .footer {
@@ -95,7 +98,7 @@ padding: 10px;
 }
 
 .footer img {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   margin: 0 10px;
 }

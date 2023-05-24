@@ -15,13 +15,13 @@ export default function Project() {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-6 d-flex justify-content-center">
+          <div className="col-6 d-flex justify-content-center project">
             <div className="image">
               <img
                 src={eatSpeakLove}
                 alt="Eat Speak Love"
                 className="img-fluid"
-                />
+              />
               <span className="text-overlay">
                 <a href="http://immense-everglades-77302.herokuapp.com/">
                   Eat Speak Love
@@ -50,13 +50,13 @@ export default function Project() {
               <img src={notes} alt="My Notes App" className="img-fluid" />
               <div className="text-overlay">
                 <a href="https://hidden-harbor-14796.herokuapp.com/">
-                 My Notes App
+                  My Notes App
                 </a>
                 <a href="https://github.com/jrob02180/my-notes-app">
                   <img src={github} alt="github" className="tinyLogo" />
                 </a>
               </div>
-          </div>
+            </div>
           </div>
           <div className="col-6 d-flex justify-content-center">
             <div className="image">
@@ -69,7 +69,7 @@ export default function Project() {
                   <img src={github} alt="github" className="tinyLogo" />
                 </a>
               </div>
-          </div>
+            </div>
           </div>
           <div className="col-6 d-flex justify-content-center">
             <div className="image">
@@ -82,7 +82,7 @@ export default function Project() {
                   <img src={github} alt="github" className="tinyLogo" />
                 </a>
               </div>
-          </div>
+            </div>
           </div>
           <div className="col-6 d-flex justify-content-center">
             <div className="image">
@@ -91,7 +91,7 @@ export default function Project() {
                 alt="Password Generator"
                 className="img-fluid"
               />
-            <div className="text-overlay">
+              <div className="text-overlay">
                 <a href="https://jrob02180.github.io/jens-pw-gen/">
                   Jen's Password Generator
                 </a>
@@ -99,8 +99,7 @@ export default function Project() {
                   <img src={github} alt="github" className="tinyLogo" />
                 </a>
               </div>
-
-          </div>
+            </div>
           </div>
         </div>
       </div>
