@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/jens-portfolio/static/css/main.cb99166b.css",
-    "main.js": "/jens-portfolio/static/js/main.5a73b583.js",
+    "main.js": "/jens-portfolio/static/js/main.5ddda65c.js",
     "static/media/birders-screenshot.png": "/jens-portfolio/static/media/birders-screenshot.f3fff38399a876e22981.png",
     "static/media/paper.jpg": "/jens-portfolio/static/media/paper.84559a11a24a4d30dd62.jpg",
+    "static/media/mainpage.PNG": "/jens-portfolio/static/media/mainpage.bb8251f6bb74829d2c2b.PNG",
     "static/media/eat-speak-love-screenshot.png": "/jens-portfolio/static/media/eat-speak-love-screenshot.f16a988095942f78718d.png",
     "static/media/weather-dashboard-screenshot.png": "/jens-portfolio/static/media/weather-dashboard-screenshot.ee9c2b83f0a78182a5d5.png",
     "static/media/workday-scheduler-screenshot.png": "/jens-portfolio/static/media/workday-scheduler-screenshot.9564ba009d351fe4fdc4.png",
@@ -14,10 +15,10 @@
     "static/media/password.png": "/jens-portfolio/static/media/password.aa25cbf89939def02f6b.png",
     "index.html": "/jens-portfolio/index.html",
     "main.cb99166b.css.map": "/jens-portfolio/static/css/main.cb99166b.css.map",
-    "main.5a73b583.js.map": "/jens-portfolio/static/js/main.5a73b583.js.map"
+    "main.5ddda65c.js.map": "/jens-portfolio/static/js/main.5ddda65c.js.map"
   },
   "entrypoints": [
     "static/css/main.cb99166b.css",
-    "static/js/main.5a73b583.js"
+    "static/js/main.5ddda65c.js"
   ]
 }
