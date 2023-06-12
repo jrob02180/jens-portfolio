@@ -2,6 +2,7 @@
   "name": "jens-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jrob02180.github.io/jens-portfolio/",
  
   "dependencies": {
     "bootstrap": "^5.2.3",

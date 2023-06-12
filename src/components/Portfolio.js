@@ -5,6 +5,7 @@ import notes from "../assets/images/note-screenshot.png";
 import scheduler from "../assets/images/workday-scheduler-screenshot.png";
 import weather from "../assets/images/weather-dashboard-screenshot.png";
 import password from "../assets/images/password.png";
+import mainpage from "../assets/images/mainpage.PNG";
 import github from "../assets/images/github-mark.png";
 
 export default function Project() {
@@ -87,15 +88,15 @@ export default function Project() {
           <div className="col-6 d-flex justify-content-center">
             <div className="image">
               <img
-                src={password}
-                alt="Password Generator"
+                src={mainpage}
+                alt="Daily Zen Journal"
                 className="img-fluid"
               />
               <div className="text-overlay">
-                <a href="https://jrob02180.github.io/jens-pw-gen/">
-                  Jen's Password Generator
+                <a href="https://stark-cliffs-80324.herokuapp.com/">
+                  Daily Zen Journal
                 </a>
-                <a href="https://github.com/jrob02180/jens-pw-gen">
+                <a href="https://github.com/mrott0397/daily-zen-journal">
                   <img src={github} alt="github" className="tinyLogo" />
                 </a>
               </div>
